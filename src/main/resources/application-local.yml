@@ -19,6 +19,13 @@ spring:
     password: user1234
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+  clickhouse-datasource:
+    url: jdbc:clickhouse://localhost:8123/test
+    username: user
+    password: user
+    driver-class-name: ru.yandex.clickhouse.ClickHouseDriver
+
+
 logging:
   level:
     root: info
